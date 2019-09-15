@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F4554791-B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatlerWaldorfCorp.EventProcessor", "StatlerWaldorfCorp.EventProcessor\StatlerWaldorfCorp.EventProcessor.csproj", "{A7DACC0F-4278-454B-BB5B-9037E3BF7E00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatlerWaldorfCorp.EventProcessor.Tests", "StatlerWaldorfCorp.EventProcessor.Tests\StatlerWaldorfCorp.EventProcessor.Tests.csproj", "{403B6647-118D-4C1D-91B8-D0FC6E00BE60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatlerWaldorfCorp.EventProcessor.Tests.Integration", "StatlerWaldorfCorp.EventProcessor.Tests.Integration\StatlerWaldorfCorp.EventProcessor.Tests.Integration.csproj", "{567FF542-2C12-4D00-B771-C2AC2B45A48D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +23,22 @@ Global
 		{A7DACC0F-4278-454B-BB5B-9037E3BF7E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7DACC0F-4278-454B-BB5B-9037E3BF7E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7DACC0F-4278-454B-BB5B-9037E3BF7E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{403B6647-118D-4C1D-91B8-D0FC6E00BE60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{403B6647-118D-4C1D-91B8-D0FC6E00BE60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{403B6647-118D-4C1D-91B8-D0FC6E00BE60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{403B6647-118D-4C1D-91B8-D0FC6E00BE60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{567FF542-2C12-4D00-B771-C2AC2B45A48D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567FF542-2C12-4D00-B771-C2AC2B45A48D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567FF542-2C12-4D00-B771-C2AC2B45A48D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567FF542-2C12-4D00-B771-C2AC2B45A48D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A7DACC0F-4278-454B-BB5B-9037E3BF7E00} = {13637BE2-3CB9-4D35-9E79-6DE28FE23950}
+		{403B6647-118D-4C1D-91B8-D0FC6E00BE60} = {F4554791-BA09-4067-89DF-1BC45F2DF0D2}
+		{567FF542-2C12-4D00-B771-C2AC2B45A48D} = {F4554791-BA09-4067-89DF-1BC45F2DF0D2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4385EDB-F5D2-4742-AA5C-6D8BA89EAFA9}
