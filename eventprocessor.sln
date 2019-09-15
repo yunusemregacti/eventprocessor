@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{13637BE2-3CB9-4D35-9E79-6DE28FE23950}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F4554791-BA09-4067-89DF-1BC45F2DF0D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatlerWaldorfCorp.EventProcessor", "StatlerWaldorfCorp.EventProcessor\StatlerWaldorfCorp.EventProcessor.csproj", "{A7DACC0F-4278-454B-BB5B-9037E3BF7E00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7DACC0F-4278-454B-BB5B-9037E3BF7E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7DACC0F-4278-454B-BB5B-9037E3BF7E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7DACC0F-4278-454B-BB5B-9037E3BF7E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7DACC0F-4278-454B-BB5B-9037E3BF7E00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7DACC0F-4278-454B-BB5B-9037E3BF7E00} = {13637BE2-3CB9-4D35-9E79-6DE28FE23950}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4385EDB-F5D2-4742-AA5C-6D8BA89EAFA9}
+	EndGlobalSection
+EndGlobal
